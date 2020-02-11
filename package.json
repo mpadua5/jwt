@@ -1,0 +1,30 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "API NodeJS + Express + Mongo",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Maurício Pádua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mpadua-rocketseat/jwt/issues"
+  },
+  "homepage": "https://gitlab.com/mpadua-rocketseat/jwt#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.7",
+    "nodemailer": "^6.4.2",
+    "nodemailer-express-handlebars": "^3.1.0",
+    "nodemon": "^1.19.4",
+    "swagger-jsdoc": "^3.5.0",
+    "swagger-ui-express": "^4.1.3"
+  }
+}
